@@ -1,1 +1,4 @@
-# api_dev_ativ_01
+# API Development
+## Atividade Prática 01 - NodeJS / NestJS
+### Aluno: Vinicius Alcarde Goia
+### E-mail: vinicius.goia@aluno.faculdadeimpacta.com.br
