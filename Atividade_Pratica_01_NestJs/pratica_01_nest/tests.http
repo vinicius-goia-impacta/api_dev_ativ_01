@@ -1,0 +1,49 @@
+### 1 Teste de conexão
+GET http://localhost:3000/
+
+### 2 Consulta de Usuários Totais
+GET http://localhost:3000/userclient/consulta
+
+### 3 Cadastro de Usuário
+POST http://localhost:3000/userclient/cadastro
+Content-Type: application/json
+
+{
+  "nome": "João da Silva",
+  "email": "joaodasilva@gmail.com"
+}
+
+### 4 Cadastro de Usuário
+POST http://localhost:3000/userclient/cadastro
+Content-Type: application/json
+
+{
+  "nome": "João da Silva",
+  "email": "joaodasilva@impacta.com"
+}
+
+### 5 Cadastro de Usuário
+POST http://localhost:3000/userclient/cadastro
+Content-Type: application/json
+
+{
+  "nome": "Maria da Costa",
+  "email": "mariadacosta@gmail.com"
+}
+
+### 6 Consulta de Usuário
+GET http://localhost:3000/userclient/consultausuario?nome=joão%20da%20silva
+
+### 7 Consulta de Usuário
+GET http://localhost:3000/userclient/consultausuario?nome=maria%20da%20costa
+
+### 8 Exclusão de Usuário pelo email
+DELETE http://localhost:3000/userclient/exclusao
+Content-Type: application/json
+
+{
+  "email": "joaodasilva@gmail.com"
+}
+
+### 9 Consulta de Usuários Totais
+GET http://localhost:3000/userclient/consulta
